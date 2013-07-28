@@ -11,10 +11,11 @@ npm install js2yml
 ### Использование:
 
 ``` js
-var js2yml = require('js2yml');
+var js2yml = require('js2yml'),
+    xmlString
+;
 
-
-console.log(js2yml.createYmlSync({
+xmlString = js2yml.createYmlSync({
   name: "TeaPots",
   company: "Teapots",
   url: "http://teapots.su",
@@ -37,7 +38,9 @@ console.log(js2yml.createYmlSync({
       param: [{name: "объем", unit: "мл.", value: 110}]
     }
   ]
-}));
+});
+
+console.log(xmlString);
 ```
 
 выведет:
