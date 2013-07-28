@@ -89,7 +89,7 @@ exports.createYmlSync = function(obj){
 
   //currencies filter
 
-  var root = xml.create('yml_catalog', {'version': '1.0', 'encoding': 'UTF-8'}, {'ext': '"shops.dtd"'});
+  var root = xml.create('yml_catalog', {'version': '1.0', 'encoding': 'UTF-8'}, {ext: 'SYSTEM "shops.dtd"'});
 
   root.att('date', moment(new Date()).format('YYYY-MM-DD HH:mm'));
 
