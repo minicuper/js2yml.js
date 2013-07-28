@@ -8,7 +8,7 @@
 npm install js2yml
 ```
 
-### Usage:
+### Использование:
 
 ``` js
 var js2yml = require('js2yml');
@@ -32,7 +32,7 @@ console.log(js2yml.createYmlSync({
       price: 5700,
       currencyId: "RUB",
       categoryId: "1",
-      picture: "https://lh6.googleusercontent.com/-j8pBC9x_IOY/UfEpQc8ThzI/AAAAAAAACNQ/50qT3AFYuMg/s870/8.jpg",
+      picture: "https://lh6.googleusercontent.com/-j8pBC9x_IOY.jpg",
       name: "Чайник Джу Ни",
       param: [{name: "объем", unit: "мл.", value: 110}]
     }
@@ -63,7 +63,7 @@ console.log(js2yml.createYmlSync({
         <price>5700</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <picture>https://lh6.googleusercontent.com/-j8pBC9x_IOY/UfEpQc8ThzI/AAAAAAAACNQ/50qT3AFYuMg/s870/8.jpg</picture>
+        <picture>https://lh6.googleusercontent.com/-j8pBC9x_IOY.jpg</picture>
         <name>Чайник Джу Ни</name>
         <param name="объем" unit="мл.">110</param>
       </offer>
