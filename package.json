@@ -1,0 +1,29 @@
+{
+    "name": "js2yml"
+  , "description": "A javascript to yml (yandex xml for yandex-market) converter"
+  , "version": "1.0.0"
+  , "author": "Artur Zayats <zag2art@gmail.com> (http://zag2art.github.com)"
+  , "dependencies": {
+      "underscore": "latest"
+    , "moment": "latest"
+    , "xmlbuilder": "latest"
+  }
+  , "homepage": "https://github.com/zag2art/js2yml.js"
+  , "bugs": {
+    "url": "https://github.com/zag2art/js2yml.js/issues"
+  }
+  , "keywords": [
+    "yandex",
+    "yml",
+    "xml",
+    "yandex market"
+  ]
+  , "repository": {
+    "type": "git",
+    "url": "http://github.com/zag2art/js2yml.js.git"
+  }
+  , "engines": {
+    "node": ">=0.1.90"
+  }
+  , "main": "js2yml"
+}
